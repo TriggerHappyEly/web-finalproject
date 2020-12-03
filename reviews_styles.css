@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import "fonts.css";
+
+/* Layout Styles */
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: url("Images/casa_background1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+	box-shadow: 1px 1px 10px gray;
+	height: auto;
+}
+
+main {
+	margin-bottom: 10px;
+}
+
+/* Review Item Grid Styles */
+
+.reviews-container {
+	box-sizing: border-box;
+	display: grid; /************* This fulfills requirement 2.4.7.a.i**************/
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 20px;
+	max-width: 100%;
+	height: auto;
+	margin: 80px;
+
+}
+
+.review-item {
+	border: 3px solid black;
+	border-radius: 15px;
+	color: black;
+	background-color: white;
+	opacity: 75%;
+	text-align: center;
+	font-family: Arial;
+	height: auto;
+}
+
+.review-item > p:first-of-type { /************* This fulfills requirement 2.4.2-d **************/
+	text-transform: uppercase;
+	padding: 20px;
+	text-align: left;
+	font-weight: bold;
+}
+
+/* Text Styles */
+
+h1 {
+	background-color: white;
+	text-align: center;
+	font-family: OpenSansCondensed-Light;
+	font-size: 2em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 20px;
+}
+
+blockquote {
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "''";
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-family: Catamaran;
+	font-size: 6em;
+	line-height: 0.05em;
+	margin-right: 0.1em;
+	vertical-align: -0.4em;
+}
+
+blockquote p {
+	display: inline;
+}
+
+/* Image Styles */
+
+.background1 {
+	height: 350px;
+	background: url(Images/casa_background1.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: -10px;
+}
+
+div#background2 {
+	height: auto;
+	background: url(Images/casa_background1.jpg) no-repeat center fixed;
+	background-size: cover;
+	margin-top: -10px;
+}

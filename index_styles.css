@@ -1,0 +1,168 @@
+@charset "utf-8";
+@import "fonts.css";
+
+
+/* Layout Styles */
+
+html {
+	background: black;
+}
+
+nav {
+	height: auto;
+}
+
+/* Clock Styles */
+
+.clock {
+	box-sizing: border-box;
+	color: white;
+	font-size: 2.5em;
+	text-align: right;
+	margin-right: 230px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/* Row Styles */
+
+.row-flex-small {
+	box-sizing: border-box;
+	display: flex; /************* This fulfills requirement 2.4.7.a.ii**************/
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	color: black;
+	height: auto;
+	text-align: center;
+}
+
+.row-flex-large {
+	box-sizing: border-box;
+	display: flex;
+	flex: 1 1 1;
+	justify-content: center;
+	background-color: white;
+	color: black;
+	height: auto;
+	text-align: center;
+}
+
+div#largest-humidor-text {
+	margin: 80px;
+}
+
+
+/* Flex Item Styles */
+
+.know-info-item, .taste-info-item {
+	padding: 30px 55px;
+}
+
+/* Text Styles */
+
+
+.know-info-item p:first-of-type::first-letter { /************* This fulfills requirement 2.4.2-f **************/
+	font-size: 3em;
+	font-family: Pacifico-Regular;
+}
+
+.taste-info-item p:first-of-type::first-letter {
+	font-size: 3em;
+	font-family: Pacifico-Regular;
+	letter-spacing: 10px;
+}
+
+
+
+h3 { /************* This fulfills requirement 2.4.2-a **************/
+	display: inline;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 40px 100px;
+	margin: 30px;
+	font-family: OpenSansCondensed-Light;
+	font-size: 3.5em;
+}
+
+h1 {
+	font-family: SacramentoRegular;
+	font-size: 4em;
+	padding: 30px;
+}
+
+h2 { /************* This fulfills requirement 2.4.2-a **************/
+	padding-bottom: 20px;
+	font-size: 1.6em;
+	font-family: Clarendon-Regular;
+	letter-spacing: 2px;
+}
+
+.know-info-item > p { /************* This fulfills requirement 2.4.2-a **************/
+	font-family: Montserrat-Light;
+	font-size: 1.1em;
+	padding: 8px;
+	text-align: justify;
+}
+
+.taste-info-item > p { /************* This fulfills requirement 2.4.2-b **************/
+	font-family: Montserrat-Light;
+	font-size: 1.1em;
+	padding: 8px;
+	text-align: justify;
+}
+
+h4 {
+	font-family: Corben-Regular;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+div#intro-text {
+	font-size: 1.4em;
+	font-family: Montserrat-Light;
+	text-align: center;
+	padding: 5px 50px;
+}
+
+div#intro-text a {
+	display: block;
+	padding: 20px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 1.2em;
+}
+
+
+/* Image Styles */
+
+.background1 { /************* This fulfills requirement 2.4.2-a **************/
+	height: 350px;
+	background: url(Images/casa_background1.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+	margin-top: -10px;
+	min-width: 100%
+}
+
+.background2 {
+	height: 450px;
+	background: url(Images/casa_background2.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.background3 {
+	height: 500px;
+	background: url(Images/casa_background3.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.background4 {
+	height: 400px;
+	background: url(Images/casa_background4.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+

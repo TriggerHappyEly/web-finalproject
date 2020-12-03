@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "fonts.css";
+
+/* Layout Styles */ 
+
+
+body {
+	background-image: url(Images/casa_background1.jpg);
+}
+
+nav {
+	height: auto;
+}
+
+.footer-info {
+	margin-bottom: 0;
+}
+
+/* Gallery Styles */
+
+.gallery-container { /************* This fulfills requirement 2.4.7.c**************/
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: flex; /************* This fulfills requirement 2.4.2-g **************/
+	padding: 0 4px;
+	margin: 10px;
+	margin-top: 30px;
+}
+
+.gallery-column { /************* This fulfills requirement 2.4.7.c**************/
+	-webkit-flex: 33.33%;
+	flex: 33.33%;
+	max-width: 33.33%;
+	padding: 0 4px;
+}
+
+.image-container { /* divs holding the images */
+	margin-top: 8px;
+	vertical-align: middle;
+	box-shadow: 4px 4px 6px -4px white,
+				-4px -4px 6px -4px white;
+}
+
+.image-container img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+

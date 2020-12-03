@@ -1,0 +1,204 @@
+@charset "utf-8";
+@import "fonts.css";
+
+/* Layout Styles */
+
+html {
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	height: inherit;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	height: 130px;
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav {
+	float: left;
+	position: fixed;
+	background-color: rgba(32, 9, 2, 100%); /************* This fulfills requirement 2.4.2-c **************/
+	height: 23%;
+	width: 100vw;
+	box-shadow: 1px 1px 10px white; /************* This fulfills requirement 2.4.2-h **************/
+}
+
+nav::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+ul.mainmenu li {
+	float: left; /************* This fulfills requirement 2.4.2-g **************/
+	margin-left: 5px;
+	padding-top: 70px;
+}
+
+
+ul.mainmenu a {
+	display: block;
+	color: white;
+	font-family: Corben-Regular;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+
+ul.mainmenu a:hover, a:active { /************* This fulfills requirement 2.4.2-d **************/
+	background-color: rgb(212, 201, 201);
+	color: black;
+}
+
+/*Drop Down Menu Styles */
+
+.dropdown-menu {
+	background-color: rgb(32, 9, 2);
+	width: auto;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.menu-button {
+	display: none;
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(32, 9, 2);
+	border: none;
+	color: white;
+	padding: 12px 12px;
+	padding-bottom: 0;
+	font-size: 2em;
+	cursor: pointer;
+	margin-top: 60px;
+	
+}
+
+.menu-button:hover {
+	
+}
+
+.dropdown-list {
+	display: none;
+	position: absolute;
+	background-color: rgba(204, 204, 204, 70%);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding-left: 5px;
+	font-size: 2em;
+	width: 350px;
+}
+
+.dropdown-list a {
+  color: black;
+  display: block;
+  font-family: Corben-Regular;
+  white-space: no-wrap;
+}
+
+.dropdown-list a:hover {
+	background-color: rgb(176, 176, 176);
+}
+
+.dropdown-menu:hover .dropdown-list {
+	display: block;
+}
+
+
+/* Logo Styles */
+
+img#headerLogo {
+	border-radius: 50%; /************* This fulfills requirement 2.4.2-e **************/
+	max-height: 175px;
+	max-width: 175px;
+	top: 20px;
+	right: 40px;
+	position: fixed; /************* This fulfills requirement 2.4.7.a.iii **************/
+	transition: transform .9s ease-in-out;  /************* This fulfills requirement 2.4.2-h **************/
+}
+
+img#headerLogo:hover {
+	transform: rotate(360deg);
+}
+
+/* Footer Styles */
+
+footer {
+	box-sizing: border-box;
+	height: auto;
+	max-width: 100%;
+}
+
+.footer-info {
+	box-sizing: border-box;
+	display: grid; /************* This fulfills requirement 2.4.2-g **************/
+	grid-template-columns: auto auto auto;
+	color: black;
+	font-family: Corben-Regular;
+	font-weight: normal;
+	background-color: white;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div#footer-middle a {
+	color: black;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+div#footer-middle a:hover {
+	background-color: gray;
+	font-size: 1.2em;
+}
+
+div#footer-left p{
+	margin-top: 25px;
+	font-size: 1.2em;
+	border-right: 1px solid gray;
+}
+
+div#footer-right p{
+	margin-top: 25px;
+	font-size: 1.2em;
+	border-left: 1px solid gray;
+}
+
+
+div#footer-end {
+	box-sizing: border-box;
+	text-align: left;
+	background-color: rgb(32, 9, 2);
+	max-width: 100%;
+	color: white;
+}
+
+/* Social Media Icon Styles */
+
+.fa-twitter {
+  background: white;
+  color: black;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+
+
+
+

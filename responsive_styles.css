@@ -1,0 +1,108 @@
+@charset "utf-8";
+@import "fonts.css";
+
+
+/************* This fulfills requirement 2.4.7.b**************/
+
+
+
+
+
+
+/* ============================================
+   Small Mobile Styles: 0 to 500px
+   ============================================
+*/
+@media only screen and (max-width: 500px) {
+
+	div#footer-middle {
+		display: none;
+	}
+
+}
+
+/* ============================================
+   Mobile Styles: 0 to 700px
+   ============================================
+*/
+
+@media only screen and (max-width: 700px) {
+	
+	div#largest-humidor-text h3 {
+		font-size: 1.5em;
+		border: none;
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+	}
+	
+	div#know-left{
+		display: none;
+	}
+	
+	div#taste-right {
+		display: none;
+	}
+	
+	
+	.row-flex-large img {
+		display: none;
+	}
+	
+	div#google-maps {
+		display: none;
+	}
+	
+	div#mobile-map {
+		display: block;
+	}
+	
+	
+}
+
+
+/* ============================================
+   Tablet Styles: 481px and greater (to 989px)
+   ============================================
+*/
+
+@media only screen and (max-width: 990px) {
+	
+	ul.mainmenu {
+		display: none;
+	}
+
+	.menu-button {
+		display: block;
+	}
+
+	img#headerLogo {
+		display: none;
+	}
+
+	.clock {
+		display: none;
+	}
+
+	.row-flex-large img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+
+}
+
+
+/* ============================================
+   Desktop & Laptop Styles: 960px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 990px) {
+
+
+	nav {
+		height: auto;
+	}
+
+}

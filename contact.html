@@ -1,0 +1,153 @@
+<!doctype html>
+
+<!-- CONTACT US -->
+
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Casadel Humidor</title>
+	
+	<link href="reset.css" rel="stylesheet" />
+	<link href="base_styles.css" rel="stylesheet" />
+	<link href="contact_styles.css" rel="stylesheet" />
+	<link href="responsive_styles.css" rel="stylesheet" />
+	
+	
+	<!--for social media icons, provided by w3schools-->
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+	<!-- for nav button, provided by w3schools https://www.w3schools.com/howto/howto_css_icon_buttons.asp -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	
+	<header>
+	
+	
+	<nav class="horizontalNav">
+	
+		<div class="dropdown-menu">
+			<button class="menu-button"><i class="fa fa-bars"></i> Menu</button>
+			<div class="dropdown-list">
+				<a href="index.html">Home</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="reviews.html">Reviews</a>
+				<a href="directions.html">Directions</a>
+				<a href="contact.html">Contact</a>
+				<a href="cross_reference.html">Cross Reference</a>
+			</div>
+		</div>
+		
+	
+		<ul class="mainmenu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="reviews.html">Reviews</a></li>
+			<li><a href="directions.html">Directions</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="cross_reference.html">Cross Reference</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<a href="index.html"><img id="headerLogo" src="Images/casa_logo.jpg" alt=""></a>
+	
+	
+	<main>
+	<div class="section" id="contact-form"> <!-- ************* This fulfills requirement 2.4.7.d************** -->
+		<h1>Contact Us</h1>
+		
+		<form> 
+			<!-- ************* This fulfills requirement 2.4.3-a,b************** -->
+			<fieldset id="customerInfo">
+			<p><label>First and Last Name*<br /></label>
+			<input name="customerName" id="name" type="text" required></input></p>
+			
+			<p><label>Phone Number<br /></label>
+			<input name="customerPhone" id="phone" type="tel" ></input></p>
+			
+			<p><label>Email*<br /></label>
+			<input name="customerEmail" id="email" type="email" required
+			pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></input></p> <!-- ************* This fulfills requirement 2.4.3-c************** -->
+			</fieldset>
+			
+			<fieldset id="customerText">
+			<p><label>What can we help you with?<br /></label></p>
+			<textarea placeholder="In a few words, please tell us what we can help you with..."> 
+			</textarea>
+			</fieldset>
+			
+			<div id="buttons">
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Cancel" />
+			</div>
+			
+		</form>
+		
+	</div>
+	
+	<div class="section" id="right-section"> <!-- right column -->
+		<div class="row" id="row1">
+			<div class="column" id="column1">
+			<table>					 <!-- ************* This fulfills requirement 2.4.4************** -->
+				<tr><th class="highlight">Sunday</th><td class="highlight">8am - 7pm</td></tr>
+				<tr><th>Monday</th><td>8am - 7pm</td></tr>
+				<tr><th class="highlight">Tuesday</th><td class="highlight">8am - 7pm</td></tr>
+				<tr><th>Wednesday</th><td>8am - 7pm</td></tr>
+				<tr><th class="highlight">Thursday</th><td class="highlight">8am - 7pm</td></tr>
+				<tr><th>Friday</th><td>8am - 7pm</td></tr>
+				<tr><th class="highlight">Saturday</th><td class="highlight">8am - 7pm</td></tr>
+			</table>
+			</div>
+			<div class="column" id="column2">
+			<div id="contact-image"><img src="Images/contact_image.jpg"></div>
+			</div>
+		</div>
+		
+		<div class="card-row">
+			<div id="contact-card"><img src="Images/contact_card.png"></div>
+		</div>
+	</div>
+	</div>
+	
+	</main>
+	
+	<footer>
+		<div class="footer-info">
+			<div class="column" id="footer-left">
+			<p>Follow us on Instagram!<br />
+			<a href="https://www.instagram.com/casadelhumidor/">@casadelhumidor</a><br />
+			<a href="https://www.instagram.com/casadelhumidor/" class="fa fa-instagram"></a></p>
+			</div>
+			
+			<div class="column" id="footer-middle">
+			<h4>Casa Del Humidor</h4>
+			<p>Canada's Largest Walk-In Humidor</p>
+			<address>6413 Rama Road, Orillia, Ontario, Canada</address>
+			<a href="tel:7053257777">(705) 325-7777</a>
+			</div>
+			
+			<div class="column" id="footer-right">
+			<p>Follow us on Twitter!<br />
+			<a href="https://twitter.com/CasadelHumidor">@CasadelHumidor</a><br />
+			<a href="https://twitter.com/CasadelHumidor" class="fa fa-twitter"></a></p>
+			</div>
+			
+		</div>
+		<div id="footer-end">
+		<p>&#169; Elysia Stella &#8226; Last updated Nov 2020.</p>
+		</div>
+	</footer>
+
+
+
+
+</body>
+</html>

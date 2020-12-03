@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Montserrat-Light;
+	src: url('fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SacramentoRegular;
+	src: url('fonts/SacramentoRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: OpenSansCondensed-Light;
+	src: url('fonts/OpenSansCondensed-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Clarendon-Regular;
+	src: url('fonts/Clarendon-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Corben-Regular;
+	src: url('fonts/Corben-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Catamaran;
+	src: url('fonts/Catamaran.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Pacifico-Regular;
+	src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+}

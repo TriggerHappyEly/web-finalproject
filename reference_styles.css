@@ -1,0 +1,83 @@
+@charset "utf-8";
+@import "fonts.css";
+
+/* Reset only for this page */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html, body, nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul.mainmenu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+blockquote {
+	margin: 0;
+	padding: 15px;
+	padding-left: 40px;
+}
+
+/* Layout Styles */
+
+body {
+	background-color: #fffafa;
+	color: black;
+}
+
+/* Headers Styles */
+
+h1 {
+	padding-left: 10px;
+}
+
+/* List Styles */
+
+.section-titles {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: red;
+}
+
+li { /************* This fulfills requirement 2.4.2-a **************/
+	padding: 5px;
+}
+
+.list-titles {
+	padding: 10px;
+	color: black;
+}
+
+.list-titles ul li { /************* This fulfills requirement 2.4.2-a **************/
+	font-weight: normal;
+	
+}
+
+a:link { /************* This fulfills requirement 2.4.2-a **************/
+	color: black;
+	padding: 2px;
+}
+
+a:visited { /************* This fulfills requirement 2.4.2-a **************/
+	color: navy;
+}
+
+blockquote {
+	font-weight: normal;
+	color: black;
+}
+
+h1:first-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+

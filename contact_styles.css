@@ -1,0 +1,210 @@
+@charset "utf-8";
+@import "fonts.css";
+
+/* Layout Styles */
+
+html {
+	height: auto;
+	max-width: 100%;
+}
+
+body {
+	background-image: url(Images/casa_background1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	max-width: 100%;
+}
+
+main { 
+	display: grid; /************* This fulfills requirement 2.4.7.d**************/
+	grid-template-columns: 55% 45%; /************* This fulfills requirement 2.4.7.d**************
+	max-width: 100%;
+	margin: 40px;
+	margin-top: 60px;
+	height: auto;
+}
+ 
+.section {
+	height: auto;
+	margin: 20px;
+	background-color: white;
+}
+
+.footer-info {
+	margin-bottom: 0;
+}
+
+/* Form Layout */
+
+div#contact-form {
+	box-shadow: 8px 8px 6px -6px white,
+				-8px -8px 6px -6px white;
+	font-family: Catamaran;
+}
+
+form {
+	margin-top: 20px;
+}
+
+form > p {
+	padding: 10px;
+}
+
+h1 {
+	padding: 20px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	background-color: gray;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px white;
+}
+
+
+label {
+	display: block;
+	background-color: #cfcfcf;
+	padding: 5px;
+	
+}
+
+input {
+	display: block;
+}
+
+
+input[type=text] {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 5px;
+	border: 0; /* remove default border */
+	border-bottom: 1px solid #bbb;
+}
+
+input[type=email] {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 5px;
+	border: 0; /* remove default border */
+	border-bottom: 1px solid #bbb;
+}
+
+input[type=tel] {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 5px;
+	border: 0; /* remove default border */
+	border-bottom: 1px solid #bbb;
+}
+
+textarea {
+	margin: 10px;
+	margin-bottom: 0;
+	width: 90%;
+	height: 100px;
+}
+
+
+div#buttons {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	
+}
+
+input[type=submit], input[type=reset] {/************* This fulfills requirement 2.4.2-b **************/
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 0;
+	border-radius: 10px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+	background-color: gray;	
+}
+
+
+/* Right Side of page layout */
+
+div#right-section {
+	display: grid;
+	grid-template-row: auto auto;
+	box-shadow: 8px 8px 6px -6px white,
+				-8px -8px 6px -6px white;
+	font-family: Catamaran;
+	height: auto;
+}
+
+div#row1 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.card-row {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/* Table Styles */ 
+
+table {
+	caption-side: top;
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+tbody tr {
+	padding: 5px;
+}
+
+tbody tr th {
+	padding: 10px;
+}
+
+tbody tr th.highlight {
+	background-color: #cfcfcf;
+}
+
+tbody tr td.highlight {
+	background-color: #cfcfcf;
+}
+
+
+
+/* Image Styles */
+
+div#contact-image {
+	height: 100%;
+}
+
+div#contact-image img {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+div#contact-card {
+	height: auto;
+}
+
+div#contact-card img {
+	display: block;
+	object-fit: cover;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
