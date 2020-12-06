@@ -18,7 +18,7 @@ body {
 
 main { 
 	display: grid; /************* This fulfills requirement 2.4.7.d**************/
-	grid-template-columns: 55% 45%; /************* This fulfills requirement 2.4.7.d**************
+	grid-template-columns: 55% 45%; /************* This fulfills requirement 2.4.7.d**************/
 	max-width: 100%;
 	margin: 40px;
 	margin-top: 60px;
